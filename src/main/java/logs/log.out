@@ -27,3 +27,27 @@
 2022-01-20 10:01:152 INFO  ManageDriver :32 - Launching Chrome Browser
 2022-01-20 10:01:375 INFO  ManageDriver :32 - Launching Chrome Browser
 2022-01-20 10:01:835 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 11:01:301 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 11:01:81 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 11:01:02 INFO  HomePage :31 - Click on Login on Home Page :[[ChromeDriver: chrome on WINDOWS (44002db63d9305b3aebfd995f48958a8)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 11:01:907 INFO  LoginPage :48 - Enter the credentials : Username - PrimeTrainee, Password - Prime123
+2022-01-21 11:01:69 INFO  LoginPage :52 - Click on Login button :[[ChromeDriver: chrome on WINDOWS (44002db63d9305b3aebfd995f48958a8)] -> xpath: //button[@name='login_submit']]
+2022-01-21 11:01:359 INFO  LoginPage :58 - Verify error message :The username or password you entered is incorrect. Please try again.
+2022-01-21 11:01:489 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 11:01:953 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 11:01:942 INFO  HomePage :31 - Click on Login on Home Page :[[ChromeDriver: chrome on WINDOWS (0526b0dbb9f30033d68d2c9421ecbd7f)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 11:01:33 INFO  LoginPage :48 - Enter the credentials : Username - PrimeTrainee, Password - Prime123
+2022-01-21 11:01:139 INFO  LoginPage :52 - Click on Login button :[[ChromeDriver: chrome on WINDOWS (0526b0dbb9f30033d68d2c9421ecbd7f)] -> xpath: //button[@name='login_submit']]
+2022-01-21 11:01:437 INFO  LoginPage :58 - Verify error message :The username or password you entered is incorrect. Please try again.
+2022-01-21 11:01:849 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 11:01:395 INFO  HomePage :31 - Click on Login on Home Page :[[ChromeDriver: chrome on WINDOWS (6f939eb7057c6747abaa1fbbfcbded45)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 11:01:462 INFO  LoginPage :42 - Verify Login Page Url contains Login :https://www.heartbingo.co.uk/en-gb/login?first_modal=true
+2022-01-21 11:01:191 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 11:01:702 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 11:01:571 INFO  HomePage :31 - Click on Login on Home Page :[[ChromeDriver: chrome on WINDOWS (3c52b4338dec92634d24d9fad6b4cbe0)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 11:01:615 INFO  LoginPage :42 - Verify Login Page Url contains Login :https://www.heartbingo.co.uk/en-gb/login?first_modal=true
+2022-01-21 11:01:369 INFO  ManageDriver :32 - Launching Chrome Browser
+2022-01-21 11:01:203 INFO  HomePage :31 - Click on Login on Home Page :[[ChromeDriver: chrome on WINDOWS (aeb0816c5601d4364d8441b96399483d)] -> xpath: //a[normalize-space()='Log In']]
+2022-01-21 11:01:339 INFO  LoginPage :48 - Enter the credentials : Username - PrimeTrainee, Password - Prime123
+2022-01-21 11:01:455 INFO  LoginPage :52 - Click on Login button :[[ChromeDriver: chrome on WINDOWS (aeb0816c5601d4364d8441b96399483d)] -> xpath: //button[@name='login_submit']]
+2022-01-21 11:01:758 INFO  LoginPage :58 - Verify error message :The username or password you entered is incorrect. Please try again.

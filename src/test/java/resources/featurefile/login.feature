@@ -2,11 +2,11 @@ Feature: Check main functionality of Home Page
 
   Background: User is on home page
     Given User is on home page
-@Smoke
+@Smoke @Regression
   Scenario: Verify Login button is working fine
     When User click on Login button
     Then verify user is on Login page
-@Smoke
+@Regression
   Scenario Outline: Verify user not able to login with invalid credentials
     When User click on Login button
     And enters username and password "<Username>" "<Password>"

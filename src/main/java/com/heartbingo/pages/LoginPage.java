@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage extends Utility {
     //
     private static final Logger log = LogManager.getLogger(LoginPage.class.getName());
-
+// with this constructor, we initialize all the page object with initElement method of PageFactory class
     public LoginPage() {
         PageFactory.initElements(driver, this);
     }
@@ -39,20 +39,23 @@ public class LoginPage extends Utility {
      //System.out.println(curUrl);
      //Verifying that the navigated page is a login page
      Assert.assertTrue(curUrl.contains("login"));
+     log.info("Verify Login Page Url contains Login :"+curUrl);
  }
  public void enterCredentials(String email, String password){
      driver.switchTo().frame(iframe);
      pmSendTextToElement(usernameTab,email);
      pmSendTextToElement(passwordTab,password);
-
+     log.info("Enter the credentials : Username - "+email+", Password - "+ password);
  }
  public void clickOnLoginButton(){
      loginTab.click();
+     log.info("Click on Login button :"+loginTab);
  }
  public void verifyErrorMessage(String expectedMessage){
      String actualMessage = pmGetTextFromElement(errorMessage);
      Assert.assertEquals(actualMessage,expectedMessage);
      driver.switchTo().defaultContent();
+     log.info("Verify error message :"+actualMessage);
  }
 
 }

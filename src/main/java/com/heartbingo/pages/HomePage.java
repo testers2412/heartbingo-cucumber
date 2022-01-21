@@ -28,7 +28,7 @@ public class HomePage extends Utility {
 
         pmWaitWithThreadSleep(20);
        pmClickOnElement(loginButton);
-
+        log.info("Click on Login on Home Page :"+loginButton);
     }
 
 }
