@@ -1,6 +1,6 @@
-package co.uk.heartbingo.utility;
+package com.heartbingo.utility;
 
-import co.uk.heartbingo.drivermanager.ManageDriver;
+import com.heartbingo.drivermanager.ManageDriver;
 import com.google.common.base.Function;
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;

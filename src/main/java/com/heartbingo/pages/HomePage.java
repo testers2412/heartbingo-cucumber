@@ -1,6 +1,6 @@
-package co.uk.heartbingo.pages;
+package com.heartbingo.pages;
 
-import co.uk.heartbingo.utility.Utility;
+import com.heartbingo.utility.Utility;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -22,15 +22,13 @@ public class HomePage extends Utility {
     @CacheLookup
     @FindBy(xpath = "//a[@class='site-main-nav__item--link bvs-link'][normalize-space()='Bingo']")
     WebElement bingoButton;
-    @CacheLookup
-    @FindBy(xpath = "(//iframe)[1]")
-    WebElement iframe;
+
 
     public void clickOnLogin() {
-       // driver.switchTo().frame(iframe);
+
         pmWaitWithThreadSleep(20);
        pmClickOnElement(loginButton);
-       // driver.switchTo().defaultContent();
+
     }
 
 }

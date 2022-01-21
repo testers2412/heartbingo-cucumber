@@ -1,4 +1,4 @@
-package co.uk.heartbingo;
+package com.heartbingo;
 
 import com.cucumber.listener.Reporter;
 import cucumber.api.CucumberOptions;

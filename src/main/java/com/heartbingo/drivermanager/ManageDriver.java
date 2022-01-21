@@ -1,7 +1,7 @@
-package co.uk.heartbingo.drivermanager;
+package com.heartbingo.drivermanager;
 
 
-import co.uk.heartbingo.propertyreader.PropertyReader;
+import com.heartbingo.propertyreader.PropertyReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;

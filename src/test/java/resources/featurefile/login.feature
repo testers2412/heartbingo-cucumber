@@ -6,10 +6,11 @@ Feature: Check main functionality of Home Page
   Scenario: Verify Login button is working fine
     When User click on Login button
     Then verify user is on Login page
-
+@Smoke
   Scenario Outline: Verify user not able to login with invalid credentials
     When User click on Login button
     And enters username and password "<Username>" "<Password>"
+    And click on login button
     Then verify the error message "<error>"
     Examples:
       | Username     | Password | error                                                                |

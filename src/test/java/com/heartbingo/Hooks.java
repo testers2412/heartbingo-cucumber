@@ -1,8 +1,8 @@
-package co.uk.heartbingo;
+package com.heartbingo;
 
-import co.uk.heartbingo.propertyreader.PropertyReader;
+import com.heartbingo.propertyreader.PropertyReader;
 import com.cucumber.listener.Reporter;
-import co.uk.heartbingo.utility.Utility;
+import com.heartbingo.utility.Utility;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;

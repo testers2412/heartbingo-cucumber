@@ -1,7 +1,7 @@
-package co.uk.heartbingo.steps;
+package com.heartbingo.steps;
 
-import co.uk.heartbingo.pages.HomePage;
-import co.uk.heartbingo.pages.LoginPage;
+import com.heartbingo.pages.HomePage;
+import com.heartbingo.pages.LoginPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -23,14 +23,21 @@ public class LoginSteps {
     }
 
     @And("^enters username and password \"([^\"]*)\" \"([^\"]*)\"$")
-    public void entersUsernameAndPassword(String arg0, String arg1)  {
+    public void entersUsernameAndPassword(String email, String password)  {
+   new LoginPage().enterCredentials(email,password);
 
 
+    }
+    @And("^click on login button$")
+    public void clickOnLoginButton() {
+        new LoginPage().clickOnLoginButton();
     }
 
     @Then("^verify the error message \"([^\"]*)\"$")
-    public void verifyTheErrorMessage(String arg0)  {
+    public void verifyTheErrorMessage(String expectedMessage)  {
 
-
+  new LoginPage().verifyErrorMessage(expectedMessage);
     }
+
+
 }

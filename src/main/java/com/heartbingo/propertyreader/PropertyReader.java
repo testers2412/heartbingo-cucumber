@@ -1,4 +1,4 @@
-package co.uk.heartbingo.propertyreader;
+package com.heartbingo.propertyreader;
 
 import java.io.FileInputStream;
 import java.util.Properties;
