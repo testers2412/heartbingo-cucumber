@@ -23,20 +23,21 @@ public class LoginSteps {
     }
 
     @And("^enters username and password \"([^\"]*)\" \"([^\"]*)\"$")
-    public void entersUsernameAndPassword(String email, String password)  {
-   new LoginPage().enterCredentials(email,password);
+    public void entersUsernameAndPassword(String email, String password) {
+        new LoginPage().enterCredentials(email, password);
 
 
     }
+
     @And("^click on login button$")
     public void clickOnLoginButton() {
         new LoginPage().clickOnLoginButton();
     }
 
     @Then("^verify the error message \"([^\"]*)\"$")
-    public void verifyTheErrorMessage(String expectedMessage)  {
+    public void verifyTheErrorMessage(String expectedMessage) {
 
-  new LoginPage().verifyErrorMessage(expectedMessage);
+        new LoginPage().verifyErrorMessage(expectedMessage);
     }
 
 

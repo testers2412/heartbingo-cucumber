@@ -10,11 +10,13 @@ import cucumber.api.java.Before;
 import java.io.IOException;
 
 public class Hooks extends Utility {
+    //This will run before every scenario
     @Before
     public void setUp(){
         selectBrowser(PropertyReader.getInstance().getProperty("browser"));
         Reporter.assignAuthor("Mehul");
     }
+    //This will run after every scenario
     @After
     public void tearDown(Scenario scenario){
 

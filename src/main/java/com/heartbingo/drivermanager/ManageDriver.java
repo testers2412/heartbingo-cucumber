@@ -18,14 +18,19 @@ import java.time.Duration;
 public class ManageDriver {
 
     public static final Logger log = LogManager.getLogger(ManageDriver.class.getName());
+    //Declaring the variable of the WebDriver interface
     public static WebDriver driver;
+    /* We are getting data from properties file through accessing the method of the PropertyReader class
+      by the Object of property reader class*/
     public String baseUrl = PropertyReader.getInstance().getProperty("baseUrl");
 
+    //Constructor to initialize and configure log4j
     public ManageDriver() {
         PageFactory.initElements(driver, this);
-        PropertyConfigurator.configure(System.getProperty("user.dir")+"/src/test/java/resources/propertiesfile/log4j2.properties");
+        PropertyConfigurator.configure(System.getProperty("user.dir") + "/src/test/java/resources/propertiesfile/log4j2.properties");
     }
 
+    //This method will select browser, manage window, applies wait and get the url
     public void selectBrowser(String browser) {
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
